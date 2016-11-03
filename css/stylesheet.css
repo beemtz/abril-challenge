@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../font/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../font/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'abril_fatfaceregular';
+  }
+
+#top {
+  background-color: white;
+  height: 380px;
+}
+
+#uppcase-top-try {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: black;
+  line-height: pt;
+  padding-top: 100px;
+  padding-left: 100px;
+
+}
+
+#main-txt-tp {
+  font-size: 120px;
+  text-transform: capitalize;
+  color: black;
+  line-height: 0pt;
+  padding-left: 100px;
+  margin-top: 45px;
+}
+
+#uppcase-top-to {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: black;
+  line-height: 0pt;
+  padding-left: 200px;
+  margin-top: -10px;
+
+}
+
+#bottom {
+  background-color: black;
+  height: 380px;
+}
+
+#ampersand {
+  float: left;
+  font-size: 120px;
+  background: -webkit-linear-gradient(black 57%, white 43%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 100px;
+  margin-top: -93px;
+  clear: both;
+}
+
+#uppcase-bttm {
+  font-size: 38px;
+  text-transform: uppercase;;
+  color: white;
+  line-height: 0pt;
+  padding-left: 100px;
+  clear: both;
+}
+
+#main-txt-bttm {
+  font-size: 120px;
+  text-transform: capitalize;
+  color: white;
+  line-height: 0pt;
+  padding-left: 100px;
+  margin-top: 60px;
+}
+
+#lowcase-bttm {
+  font-size: 30px;
+  text-transform: lowercase;
+  color: white;
+  padding-left: 860px;
+  float: left;
+  margin-top: -150px;
+}
